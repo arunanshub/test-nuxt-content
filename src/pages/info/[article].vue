@@ -4,7 +4,7 @@
     <article
       class="prose prose-p:text-black max-w-prose mx-auto prose-pre:bg-transparent prose-pre:text-[unset]"
     >
-      <LazyServerContentRenderer :value="data" v-if="data" />
+      <LazyContentRenderer :value="data" v-if="data" />
     </article>
   </main>
 </template>

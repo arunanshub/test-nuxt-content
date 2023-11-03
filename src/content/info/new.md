@@ -19,5 +19,3 @@ fn bar(): i32 {
     x.voo()?.dsed();
 }
 ```
-
-`sadasd` is fine

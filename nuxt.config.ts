@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   tailwindcss: {
     exposeConfig: true,
     config: {
-      plugins: [tailwindTypography({target: 'legacy'})],
+      plugins: [tailwindTypography],
     },
   },
 })

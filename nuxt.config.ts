@@ -18,6 +18,21 @@ export default defineNuxtConfig({
     },
   },
 
+  // CSS and fonts
+  postcss: {
+    plugins: {
+      "postcss-preset-env": true,
+      cssnano: {
+        preset: [
+          "default",
+          {
+            discardComments: { removeAll: true },
+          },
+        ],
+      },
+    },
+  },
+
   tailwindcss: {
     exposeConfig: true,
     config: {

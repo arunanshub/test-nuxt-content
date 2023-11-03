@@ -24,6 +24,7 @@
     "@nuxt/content": "^2.8.5",
     "@nuxtjs/tailwindcss": "^6.9.1",
     "@tailwindcss/typography": "^0.5.10",
-    "browserslist-to-esbuild": "^1.2.0"
+    "browserslist-to-esbuild": "^1.2.0",
+    "postcss-preset-env": "^9.3.0"
   }
 }
